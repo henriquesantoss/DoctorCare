@@ -9,7 +9,7 @@
 
 :root {
     font-size: 62.5%;
-    --hue: 170;
+    --hue: 190;
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
@@ -18,7 +18,7 @@
     --nav-height: 7.2rem;
     --bg-light: hsl(180, 14%, 97%);
     --brand-dark: hsl(var(--hue), 100%, 14%);
-    --band-beige2: hsl(calc(var(--hue) - 10), 14%, 97%);
+    --band-beige2: hsl(calc(var(--hue) + 10), 14%, 97%);
 }
 
 html {
